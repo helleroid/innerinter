@@ -1,9 +1,63 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Inner Inter</title>
-  </head>
-  <body>
-    <h1>Hello from innerinter.net</h1>
-  </body>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>inner inter — portal</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1 contenteditable="true">inner inter</h1>
+      <p contenteditable="true">a listening chamber — a portal for ritual, sound, and study.</p>
+      <nav class="nav">
+        <a href="helleroid.html">helleroid</a>
+        <a href="spectra.html">spectra</a>
+        <a href="rythms.html">rythms</a>
+        <a href="rituals.html">rituals</a>
+        <a href="helhelp.html">helhelp</a>
+        <a href="xfiles.html">xfile</a>
+        <a href="teaspace.html">teaspace</a>
+        <a href="clarity.html">clarity (podcast)</a>
+        <a href="connect.html">connect</a>
+      </nav>
+    </header>
+
+    <section class="grid">
+      <article class="card">
+        <h3 contenteditable="true">Latest transmission</h3>
+        <p contenteditable="true">a short note about what’s new; link to latest podcast or release.</p>
+        <div class="player">
+          <button id="prev-track" class="btn">prev</button>
+          <button id="play-toggle" class="btn">play</button>
+          <button id="next-track" class="btn">next</button>
+          <div style="margin-left:12px;color:var(--muted)" id="track-title">no track</div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 contenteditable="true">Tea & Ritual</h3>
+        <p contenteditable="true">link to teaspace, recipes, and short rituals.</p>
+        <img src="/mnt/data/D6EC8F81-1C40-4D13-B2D8-A88A42F1E5CC.jpeg" alt="teaspace" style="max-width:100%;border-radius:8px;margin-top:12px">
+      </article>
+
+      <article class="card">
+        <h3 contenteditable="true">InnerQuest</h3>
+        <p contenteditable="true">explore the map and unlock pieces of work.</p>
+        <div id="innerquest"></div>
+      </article>
+
+      <article class="card">
+        <h3 contenteditable="true">Recent writings</h3>
+        <p><a href="blog.html" style="color:var(--accent)">enter the log</a></p>
+      </article>
+    </section>
+
+    <footer style="margin-top:36px;text-align:center;color:var(--muted)">
+      <small>© inner inter — handcrafted in berlin</small>
+    </footer>
+  </main>
+  <script src="js/player.js"></script>
+</body>
 </html>
